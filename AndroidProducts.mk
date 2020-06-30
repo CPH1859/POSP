@@ -16,4 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_CPH1859.mk
+    $(LOCAL_DIR)/du_CPH1859.mk
+    
+COMMON_LUNCH_CHOICES := \
+    du_tissot-user \
+    du_tissot-userdebug \
+    du_tissot-eng \
