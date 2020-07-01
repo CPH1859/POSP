@@ -19,6 +19,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/du_CPH1859.mk
     
 COMMON_LUNCH_CHOICES := \
-    du_tissot-user \
-    du_tissot-userdebug \
-    du_tissot-eng \
+    du_CPH1859-user \
+    du_CPH1859-userdebug \
+    du_CPH1859-eng \
