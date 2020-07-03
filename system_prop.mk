@@ -14,6 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Pixel identification
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys
+
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+   persist.camera.HAL3.enabled=1
+
+# Video Acceleration Enabled And HW debugging
+video.accelerate.hw=1
+debug.sf.hw=1
+debug.performance.tuning=1
+debug.egl.profiler=1 
+debug.egl.hw=1
+debug.composition.type=gpu 
 
 #
 # System Properties for Realme 1: CPH1859
