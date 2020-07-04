@@ -16,9 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_CPH1859.mk
-    
-COMMON_LUNCH_CHOICES := \
-    cesium_CPH1859-user \
-    cesium_CPH1859-userdebug \
-    cesium_CPH1859-eng \
+    $(LOCAL_DIR)/potato_CPH1859.mk
