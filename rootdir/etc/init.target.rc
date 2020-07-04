@@ -35,4 +35,8 @@ on boot
     user root
     group system
     oneshot
+    
+    on property:sys.boot_completed=1
+    start set_zram
+
 
