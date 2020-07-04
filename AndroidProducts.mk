@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_CPH1859.mk
+    $(LOCAL_DIR)/cesium_CPH1859.mk
     
 COMMON_LUNCH_CHOICES := \
-    du_CPH1859-user \
-    du_CPH1859-userdebug \
-    du_CPH1859-eng \
+    cesium_CPH1859-user \
+    cesium_CPH1859-userdebug \
+    cesium_CPH1859-eng \
